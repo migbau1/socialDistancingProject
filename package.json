@@ -1,0 +1,37 @@
+{
+  "name": "socialDistancingProject",
+  "version": "1.0.0",
+  "description": "Este repositorio se ha creado con el fin de realizar un sistema de detección de movimiento, para solucionar el distanciamiento social de personas.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --open --mode=development",
+    "build": "webpack --config webpack.config.js --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migbau1/socialDistancingProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/migbau1/socialDistancingProject/issues"
+  },
+  "homepage": "https://github.com/migbau1/socialDistancingProject#readme",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
+}

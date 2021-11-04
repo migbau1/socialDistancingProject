@@ -1,9 +1,10 @@
 import React from "react";
+import VideoComponent from "./components/VideoComponent";
 
 const App = () => {
     return (
         <div>
-            <h1>Hello</h1>
+            <VideoComponent></VideoComponent>
         </div>
     )
 }
